@@ -1,16 +1,15 @@
-# Online Grocery Store 
+# Online Grocery Store
 
 ## Project Overview
 
-This **Online Grocery Store** project allows users to browse products, add items to their cart, and manage their purchases through an inventory management system. While the project includes basic user authentication (a password system), it does **not** include advanced features like payment gateways or email notifications. The project is intended to provide a basic online shopping experience with a focus on inventory management.
+This **Online Grocery Store** project allows users to browse products, add items to their cart, and manage their purchases through an inventory management system. While the project includes basic user authentication (a password system). The project is intended to provide a basic online shopping experience with a focus on inventory management.
 
 ## Features
 
-- **Product Listing**: Users can browse a wide variety of grocery products, categorized for easy navigation.
-- **Search Functionality**: Enables users to search for specific items.
+- **Product Listing**: Users can browse a wide variety of grocery products and select items for further information and images.
 - **Shopping Cart**: Allows users to add/remove items from the cart and see the total price dynamically.
 - **User Authentication**: A simple password-based authentication system for user login and account management.
-- **Inventory Management**: Maintains stock levels for products, updates automatically when items are purchased.
+- **Inventory Management for Owner**: To add new products, remove, update information about products
 - **Basic Security**: Implements a password system for user accounts, though no advanced security protocols are in place.
 
 ## Technologies Used
