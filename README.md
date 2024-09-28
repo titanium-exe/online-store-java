@@ -1,47 +1,31 @@
-# online-store-java
-
-Here's the updated README incorporating JavaFX, Maven, and the OOP approach:
-
----
-
-# Online Grocery Store
+# Online Grocery Store 
 
 ## Project Overview
 
-This **Online Grocery Store** project is designed using **Java**, **JavaFX**, and **Maven** to provide a user-friendly interface for customers to browse, add products to their cart, and make purchases. The project follows the principles of **Object-Oriented Programming (OOP)** to manage the system's components such as products, users, and orders.
+This **Online Grocery Store** project allows users to browse products, add items to their cart, and manage their purchases through an inventory management system. While the project includes basic user authentication (a password system), it does **not** include advanced features like payment gateways or email notifications. The project is intended to provide a basic online shopping experience with a focus on inventory management.
 
 ## Features
 
-- **Product Listing**: Displays a variety of grocery products, categorized for easy browsing.
-- **Search Functionality**: Allows users to search for specific products based on keywords.
-- **Shopping Cart**: Users can add or remove items from the shopping cart and see the total price in real time.
-- **User Authentication**: Supports user registration and login, ensuring personalized shopping sessions.
-- **Checkout Process**: Enables a secure checkout with multiple payment options.
-- **Modular Design**: Built with OOP principles for easy maintenance and feature expansion.
-
-## Object-Oriented Design
-
-This project adheres to the principles of **Object-Oriented Programming (OOP)**, such as:
-
-- **Encapsulation**: Key components such as `Product`, `User`, and `Order` are encapsulated within their respective classes, exposing only necessary interfaces.
-- **Inheritance**: Common attributes and methods are shared between classes using inheritance (e.g., base classes for different types of users or products).
-- **Polymorphism**: The project uses method overriding and interfaces for flexibility in handling different user actions and payment methods.
-- **Abstraction**: Complex processes, such as payment and order tracking, are abstracted into methods to simplify the interface for the user.
+- **Product Listing**: Users can browse a wide variety of grocery products, categorized for easy navigation.
+- **Search Functionality**: Enables users to search for specific items.
+- **Shopping Cart**: Allows users to add/remove items from the cart and see the total price dynamically.
+- **User Authentication**: A simple password-based authentication system for user login and account management.
+- **Inventory Management**: Maintains stock levels for products, updates automatically when items are purchased.
+- **Basic Security**: Implements a password system for user accounts, though no advanced security protocols are in place.
 
 ## Technologies Used
 
-- **Java**: Core language used for backend and business logic.
-- **JavaFX**: For building the graphical user interface.
-- **Maven**: For managing dependencies and building the project.
-- **JUnit**: For unit testing to ensure code quality.
+- **Java**: Core programming language for the project.
+- **JavaFX**: Used for building the graphical user interface.
+- **JUnit**: Used for unit testing the application.
 
 ## File Structure
 
-- `Main.java`: Entry point of the application, responsible for initializing the JavaFX interface.
-- `product.java`: Defines the `Product` class with attributes such as `name`, `price`, and `category`.
-- `UserInfo.java`: Manages user data, including registration and login functionality.
-- `scene1.java`, `scene2.java`, `scene3.java`: JavaFX scenes representing different parts of the user interface (home, product listing, checkout).
-- `WlcmPage.java`: Implements the welcome screen for the application.
+- `Main.java`: Entry point for the application, responsible for initializing the JavaFX interface.
+- `product.java`: Defines the `Product` class with attributes such as `name`, `price`, `category`, and stock management.
+- `UserInfo.java`: Handles user data, including password management.
+- `scene1.java`, `scene2.java`, `scene3.java`: JavaFX scenes that handle different parts of the user interface (home, product listing, inventory).
+- `WlcmPage.java`: Implements the welcome page for user login and access to the store.
 
 ## How to Run the Project
 
@@ -49,21 +33,25 @@ This project adheres to the principles of **Object-Oriented Programming (OOP)**,
    ```bash
    git clone <repository-url>
    ```
-2. **Install Maven Dependencies**: Navigate to the project directory and install dependencies:
+2. **Compile the Project**: Navigate to the project directory and compile the Java files using `javac`:
    ```bash
-   mvn clean install
+   javac *.java
    ```
-3. **Run the Application**: Use Maven to run the JavaFX application:
+3. **Run the Application**: Use the following command to run the application:
    ```bash
-   mvn javafx:run
+   java Main
    ```
 
 ## Future Enhancements
 
-- **Mobile App Integration**: Add support for mobile platforms.
-- **Order History**: Implement a feature that allows users to view their past orders.
-- **Discount Codes**: Introduce support for discount codes and special offers.
-- **Admin Panel**: Develop an admin interface to manage inventory, users, and orders.
+- **Secure Payment Gateway**: Integration of secure payment methods.
+- **Email Notifications**: Implementing a system to send order confirmations and updates via email.
+- **Order History**: Allow users to view their past orders.
+- **Improved Security**: Strengthen the user authentication system and implement encryption for sensitive data.
+
+## Project Images
+
+Images showcasing the project (interface, inventory system) can be found by searching for similar JavaFX inventory management systems or by using sample images online.
 
 ## Contributing
 
@@ -75,8 +63,4 @@ This project adheres to the principles of **Object-Oriented Programming (OOP)**,
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-Does this version cover everything you wanted, or would you like any more changes?
+No license is required for this project.
