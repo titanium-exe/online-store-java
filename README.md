@@ -18,6 +18,7 @@ This **Online Grocery Store** project allows users to browse products, add items
 - **Java**: Core programming language for the project.
 - **JavaFX**: Used for building the graphical user interface.
 - **JUnit**: Used for unit testing the application.
+- **Object Oriented Programming**
 
 ## File Structure
 
