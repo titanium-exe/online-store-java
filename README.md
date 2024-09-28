@@ -1,5 +1,5 @@
 # Online Grocery Store : 2nd semester Project 
-# Team Member: Ekamleen Maan
+## Team Member: Ekamleen Maan
 
 ## Project Overview
 
